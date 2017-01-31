@@ -27,6 +27,12 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# Email settings
+EMAIL_HOST = 'smtp.webfaction.com'
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
+EMAIL_PORT = '587'
+EMAIL_USE_TLS = True
 
 # Application definition
 
@@ -68,6 +74,8 @@ TEMPLATES = [
         },
     },
 ]
+
+TEMPLATE_STRING_IF_INVALID = "Dosn't exist"
 
 WSGI_APPLICATION = 'mysite.wsgi.application'
 

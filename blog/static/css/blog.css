@@ -10,3 +10,13 @@
 .date {
     color: coral;
 }
+
+.comment {
+    background: lavender;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.info{
+    color:mediumorchid;
+}
